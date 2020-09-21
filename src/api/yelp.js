@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'https://api.yelp.com/v3/businesses',
+  baseURL: 'https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses',
   headers: {
     Authorization:
-      'Bearer l2cmhf2ezRl6ZkcHWNYKoDpiaro1zlqUjwkA7nVxnWzryiTwFDk35PJiucoLhjjFY9ECD8GTBGaHBg5yv5YDLiszKQx8EMvm30ply0UWoHQOnYFjLozpYnZOx-UsXXYx'
+      'Bearer gtMqTw67zIFH3yTxiatDkEkRx68V5p6RG7iA-Kl7aJSnQG5V5wz_U1d99z3SJe54prC6Qno4AiBSSfN10ejNQbM2iWUrZlOgAkVbEWNyp-tSSBzYUrr1QAEpOwxmX3Yx'
   }
 });
